@@ -8,4 +8,5 @@ for i in range (len(kat)):
     cos.append(math.cos(kat[i]))
 
 print(sin)
+print(cos)
 

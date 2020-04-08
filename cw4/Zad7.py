@@ -5,25 +5,18 @@ class Robaczek:
          self.x = x
          self.y = y
          self.krok = krok
-
      def idz_w_gore(self,ile_krokow):
         self.y = self.y + ile_krokow * self.krok
-
      def idz_w_dol(self,ile_krokow):
         self.y = self.y - ile_krokow * self.krok
-
      def idz_w_lewo(self,ile_krokow):
         self.x = self.x - ile_krokow * self.krok
-
      def idz_w_prawo(self,ile_krokow):
         self.x = self.x + ile_krokow * self.krok
-
      def pokaz_gdzie_jestes(self):
         return self.x, self.y
-
      def test(self):
          return 0
-     #Lab4Zad8
      def del(self):
         print("Usuniecie.")
 
@@ -36,5 +29,4 @@ print(robaczek1.pokaz_gdzie_jestes())
 robaczek1.idz_w_prawo(5)
 print(robaczek1.pokaz_gdzie_jestes())
 
-#Lab4Zad8
 del robaczek1
