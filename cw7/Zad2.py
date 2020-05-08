@@ -14,7 +14,7 @@ for i in range(3):
 
 for i in range(4):
     c.append(nu.min(y[:,i]))
-    d.append(nu.min(y[i,:]))
+    d.append(nu.min(y[i,:])) 
 
 print(a)
 print(b)
